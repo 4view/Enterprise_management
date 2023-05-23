@@ -5,25 +5,26 @@ body, h2, p {
 
 body {
     font-size: 18px;
+    font-family: sans-serif;
 }
+
+        /* Header */
 
 #header {
     display: flex;
     background-color: #eee;
     border: 1px solid #ccc;
     height: 80px; 
-    justify-content: space-between;  
+    /* justify-content: space-between;   */
 }
 
-.headr_logo {
-    
-    text-align: center;
-    padding: 5px;
-    margin: auto 0px; 
-    vertical-align: middle;
+.headr_logo {    
+    padding: 10px;
+    margin: auto 50px;     
 }
 
-    /* Навигация */
+        /* Navigation */
+
 ul.nav {
     margin-left: 0px;
     padding-left: 0px;
@@ -31,38 +32,22 @@ ul.nav {
 }
 
 .nav li {
-    float: right;
+    float: left;
+    margin: 0px 10px;
 }
 
 ul.nav a {
     display: block;
     width: 5em;
+    font-size: 20px;
     padding: 10px;
-    margin: 0px 5px;
-    background-color: #f4f4f4;
-    border: 1px dashed #333;
+    margin: auto;       
     text-decoration: none;
     color: #333;
     text-align: center;
+    transition: 0.5s;
 }
 
-#wrapper {
-    background-color: #ddd;
-}
-
-#menu {    
-    float: left;
-    width: 150px;
-}
-
-#main {
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    margin-left: 150px;
-    padding: 10px;
-}
-
-#footer {
-    border: 1px solid #ccc;
-    background-color: #dedede;
+ul.nav a:hover {
+    background-color: #7da38d;
 }
