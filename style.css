@@ -1,0 +1,68 @@
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+#header {
+    display: flex;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    height: 80px; 
+    justify-content: space-between;  
+}
+
+.headr_logo {
+    
+    text-align: center;
+    padding: 5px;
+    margin: auto 0px; 
+    vertical-align: middle;
+}
+
+    /* Навигация */
+ul.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.nav li {
+    float: right;
+}
+
+ul.nav a {
+    display: block;
+    width: 5em;
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+#wrapper {
+    background-color: #ddd;
+}
+
+#menu {    
+    float: left;
+    width: 150px;
+}
+
+#main {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+#footer {
+    border: 1px solid #ccc;
+    background-color: #dedede;
+}
